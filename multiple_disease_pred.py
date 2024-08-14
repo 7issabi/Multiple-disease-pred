@@ -5,7 +5,6 @@ Created on Tue Aug 13 19:49:06 2024
 @author: Mohamed MOUKHLISSI
 """
 
-import os
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
