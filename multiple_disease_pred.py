@@ -40,17 +40,17 @@ working_dir = "C:/MOUKHLISSI/DATA/Maching Learning/ML-Projects-Collection/Multip
 
 # loading the saved models
 
-with open(f'{working_dir}/saved_models/diabetes_model.sav', 'rb') as file:
+with open('diabetes_model.sav', 'rb') as file:
     diabetes_model = pickle.load(file)
 
 
 
-with open(f'{working_dir}/saved_models/heart_disease_model.sav', 'rb') as file:
+with open('heart_disease_model.sav', 'rb') as file:
     heart_disease_model = pickle.load(file)
 
 
 
-with open(f'{working_dir}/saved_models/parkinsons_model.sav', 'rb') as file:
+with open('parkinsons_model.sav', 'rb') as file:
     parkinsons_model = pickle.load(file)
 
 
