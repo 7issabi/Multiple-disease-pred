@@ -27,7 +27,7 @@ with st.sidebar:
                            default_index=0)
 
 # Define file paths for saved models
-working_dir = "C:/MOUKHLISSI/DATA/Maching Learning/ML-Projects-Collection/Multiple-disease-pred/saved_models"
+working_dir = os.path.dirname(os.path.abspath(__file__))
 diabetes_model_path = os.path.join(working_dir, 'diabetes_model.sav')
 heart_disease_model_path = os.path.join(working_dir, 'heart_disease_model.sav')
 parkinsons_model_path = os.path.join(working_dir, 'parkinsons_model.sav')
